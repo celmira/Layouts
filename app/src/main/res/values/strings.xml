@@ -1,3 +1,107 @@
 <resources>
-    <string name="app_name">Comentarios</string>
+
+    <string name="app_name">EventPopayan</string>
+    <string name="search">Search</string>
+    <string name="search_hint">Religiosos,Fiestas,Paseos</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">Está dirección de email es invalido</string>
+    <string name="error_server">Error en el servidor</string>
+    <string name="error_network">Conexión de red no disponible</string>
+    <string name="error_invalid_password">Password muy corto</string>
+    <string name="error_incorrect_password">Esté password es incorrecto</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <!--String CardViews-->
+    <string name="CVfechai">Fecha inicio</string>
+    <string name="CVfechaf">Fecha final</string>
+    <string name="CVprecio">$ 0.00</string>
+    <string name="CVdireccionF">dirección</string>
+    <string name="CVcategoria">Categoria</string>
+
+    <!-- String related to Registre -->
+    <string name="registro_Asistente">Registro Asistente</string>
+    <string name="registro_Organizador">Registro Organizador</string>
+    <string name="ya_tengo_cuenta">Ya tienes cuenta ?</string>
+    <string name="logo">logo</string>
+    <string name="nombre">Nombre</string>
+    <string name="apellido">Apellido</string>
+    <string name="date_birthiday">Date Birthiday</string>
+    <string name="telefono">Telefono</string>
+    <string name="Registrar">Registrar</string>
+    <string name="email_addres">Email Addres</string>
+    <string name="identificación">Identificación</string>
+    <string name="password">Password</string>
+    <string name="title_activity_vista_pqr">VistaPqr</string>
+    <!-- String related to Registre Event-->
+    <string name="titulo">Titulo</string>
+    <string name="Fecha_event">Fecha del evento</string>
+    <string name="descripcion_event">Descripción</string>
+    <string name="punto_encuentro">Punto de encuentro</string>
+    <string name="hora_inicio">Holra de Inicio</string>
+    <string name="tipo_evento">Tipo de evento</string>
+    <string name="url_">www.ejemplo.com</string>
+    <string name="direccionfisica">Cra 7 # 7c40 </string>
+    <string name="precio">Precio</string>
+    <string name="imag_event">imagen</string>
+
+    <!--Chat-->
+    <string name="mensaje">Mensaje...</string>
+    <string name="cvcfechame">enviado</string>
+    <string name="cvcrfechamr">recibido</string>
+    <string name="cvcc_nombre_usuario">Nombre</string>
+    <string name="enviar_btn_detail_chat">Enviar</string>
+    <string name="escribir_txt_detail_chat">Escriba un mensaje</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <!--Arrays para crear eventos -->
+    <string-array name="entradas_categoria">
+        <item>Ambiental</item>
+        <item>Atención</item>
+        <item>Salud</item>
+        <item>Seguridad</item>
+        <item>Transito</item>
+    </string-array>
+
+    <!-- Prioridades -->
+    <string-array name="entradas_prioridad">
+        <item>Alta</item>
+        <item>Media</item>
+        <item>Baja</item>
+    </string-array>
+    <!-- Tipos PQRS -->
+    <string-array name="entradas_Eventos">
+        <item>Campestre</item>
+        <item>Religioso</item>
+        <item>Fiesta</item>
+        <item>Museo</item>
+    </string-array>
+    <string name="title_activity_chat">ChatActivity</string>
+
+    <!--STRINGS SEARCH -->
+    <string name="action_voice_rec">action voice rec</string>
+    <string name="action_location">action location</string>
+    <string name="action_taxi">action taxi</string>
+    <string name="action_change_colors">change style</string>
+
+
+
+    <string name="CVnombre">Nombre del Evento</string>
+
+    <!-- String related to Registre -->
+
 </resources>
