@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:layout_height="0dp"
+                android:layout_weight="0.2"
+                android:orientation="vertical">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/logo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@mipmap/ic_launcher_round"
+                    app:border_color="@android:color/white"
+                    app:border_width="1dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.3"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    >
+
+                    <android.support.v7.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_weight="0.3"
+                        android:layout_height="match_parent"
+                        app:cardBackgroundColor="@color/ColorEstrellas"
+                        app:cardElevation="10dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:src="@mipmap/ic_launcher" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text=" Popular  "
+                                android:textAlignment="center"
+                                android:textStyle="bold|italic"
+
+                                />
+
+
+                        </LinearLayout>
+
+
+                    </android.support.v7.widget.CardView>
+                    <android.support.v7.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_weight="0.3"
+                        android:layout_height="wrap_content"
+                        app:cardBackgroundColor="@color/colorAccent"
+                        app:cardElevation="10dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:src="@mipmap/ic_launcher_round" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Académico "
+                                android:textAlignment="center"
+                                android:textStyle="bold|italic"
+
+                                />
+
+
+                        </LinearLayout>
+
+
+                    </android.support.v7.widget.CardView>
+                    <android.support.v7.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_weight="0.3"
+                        android:layout_height="match_parent"
+                        app:cardBackgroundColor="@color/colorPrimary"
+                        app:cardElevation="10dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@mipmap/ic_launcher_round" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Salud"
+                                android:textAlignment="center"
+                                android:textStyle="bold|italic"
+
+                                />
+
+
+                        </LinearLayout>
+
+
+                    </android.support.v7.widget.CardView>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.3"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                >
+
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.3"
+                    app:cardElevation="10dp"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:src="@mipmap/ic_launcher_round" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Recreación"
+                            android:textAlignment="center"
+                            android:textStyle="bold|italic"
+
+                            />
+
+
+                    </LinearLayout>
+
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.3"
+                    app:cardElevation="10dp"
+
+                    >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:src="@mipmap/ic_launcher_round" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=" Religioso"
+                            android:textAlignment="center"
+                            android:textStyle="bold|italic"
+
+                            />
+
+
+                    </LinearLayout>
+
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.3"
+                    app:cardElevation="10dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:src="@mipmap/ic_launcher_round" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="  Social  "
+                            android:textAlignment="center"
+                            android:textStyle="bold|italic"
+
+                            />
+
+
+                    </LinearLayout>
+
+
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.2"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal"
+                    >
+
+                <Button
+                    style=""
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Registrate" />
+
+                <Button
+                    style=""
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Entrar" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+</LinearLayout>

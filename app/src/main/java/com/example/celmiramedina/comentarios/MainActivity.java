@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.inicio);
+        setContentView(R.layout.plantilla_linear);
 
        /* final RatingBar mRatingBar = (RatingBar) findViewById(R.id.ratingBarEstrellas);
         final TextView mRatingScale = (TextView) findViewById(R.id.mensajeEscala);
