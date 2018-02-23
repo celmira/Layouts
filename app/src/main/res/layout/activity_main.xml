@@ -11,10 +11,12 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="match_parent"
+        android:layout_width="304dp"
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
-        android:text="Calificación" />
+        android:text="Calificación"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp" />
 
     <RatingBar
         android:id="@+id/ratingBarEstrellas"
@@ -23,37 +25,41 @@
         android:layout_gravity="center_horizontal"
         android:numStars="5"
         android:rating="1"
-        android:stepSize="1" />
+        android:stepSize="1"
+        tools:layout_editor_absoluteY="17dp"
+        tools:layout_editor_absoluteX="40dp" />
 
     <TextView
         android:id="@+id/mensajeEscala"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="10dp"
         android:text=""
         android:textSize="16sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        tools:layout_editor_absoluteY="84dp"
+        tools:layout_editor_absoluteX="160dp" />
 
     <EditText
         android:id="@+id/espacioComentario"
-        android:layout_width="match_parent"
+        android:layout_width="304dp"
         android:layout_height="wrap_content"
         android:inputType="textMultiLine"
         android:gravity="center_horizontal"
         android:hint="Dejanos tus comentarios"
-        android:layout_marginTop="30dp"
         android:lines="5"
-        />
+        tools:layout_editor_absoluteY="134dp"
+        tools:layout_editor_absoluteX="8dp" />
 
     <Button
         android:id="@+id/btn_enviar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="35dp"
         android:background="#e57373"
         android:text="Enviar"
-        android:textColor="@android:color/white" />
+        android:textColor="@android:color/white"
+        tools:layout_editor_absoluteY="296dp"
+        tools:layout_editor_absoluteX="116dp" />
 
 </LinearLayout>
