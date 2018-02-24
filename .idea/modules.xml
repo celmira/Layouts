@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Comentarios.iml" filepath="$PROJECT_DIR$/Comentarios.iml" />
       <module fileurl="file://$PROJECT_DIR$/Layouts.iml" filepath="$PROJECT_DIR$/Layouts.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Layouts.iml" filepath="$PROJECT_DIR$/Layouts.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
