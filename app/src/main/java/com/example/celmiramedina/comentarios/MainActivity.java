@@ -8,7 +8,11 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+<<<<<<< HEAD
         setContentView(R.layout.comentarios_organizador);
+=======
+        setContentView(R.layout.inicio);
+>>>>>>> 0e779e16346b8172091b74c3fe3d1e316125e8f1
 
        /* final RatingBar mRatingBar = (RatingBar) findViewById(R.id.ratingBarEstrellas);
         final TextView mRatingScale = (TextView) findViewById(R.id.mensajeEscala);
