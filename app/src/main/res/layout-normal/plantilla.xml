@@ -45,7 +45,7 @@
                 android:layout_height="80dp"
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1"
-                app:cardBackgroundColor="@color/ColorEstrellas"
+
                 app:cardCornerRadius="50dp"
                 app:cardElevation="5dp"
 

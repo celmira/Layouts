@@ -101,6 +101,8 @@
 
 
     <string name="CVnombre">Nombre del Evento</string>
+    <string name="EtiquetaComentarios">Dejanos tu comentario</string>
+    <string name="placeHolderComentarios">Cuentanos que piensas del organizador del evento</string>
 
     <!-- String related to Registre -->
 
